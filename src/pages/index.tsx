@@ -20,7 +20,7 @@ export default function Home() {
       <title>6th Menniversary 💖</title>
       <div className="container">
         <h1 className="text-3xl font-bold py-6">
-          6th Mensiversary of our relationship💖💗
+          6th Menniversary of our relationship💖💗
         </h1>
       </div>
       <div className="container">
