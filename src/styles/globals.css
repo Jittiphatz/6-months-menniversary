@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html,  body{
+      font-family: "Prompt", sans-serif;
+      @apply overflow-x-hidden;
+    }
+  }
+:root {
+  --background: linear-gradient(300deg,#fa6bff,#f448fc,#ff3b51,#f33dab);
+  background-size: 240% 240%;
+  animation: gradient-animation 24s ease infinite;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: linear-gradient(320deg,rgb(236 72 153),#f448fc,#ff3b51,#f33dab);
+    background-size: 240% 240%;
+    animation: gradient-animation 24s ease infinite;
+    --foreground: #ededed;
+  }
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.thumbs .swiper-slide {
+  opacity: 0.25;
+}
+
+.thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.container1 {
+  position: relative; /* Establish a reference point for centering */
+  width: 100%; /* Maintain full width */
+  height: 152px; /* Maintain desired height */
+}
+
+.iframe {
+  position: absolute; /* Position the iframe absolutely within the container */
+  top: 50%; /* Center vertically */
+  left: 51%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* More precise centering with negative offsets */
+  width: 80%; /* Maintain full width within the container */
+  height: 55%; /* Maintain full height within the container */
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
