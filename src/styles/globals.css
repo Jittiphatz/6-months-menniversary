@@ -13,6 +13,7 @@
   background-size: 240% 240%;
   animation: gradient-animation 24s ease infinite;
   --foreground: #171717;
+	font-family: "Prompt", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +22,7 @@
     background-size: 240% 240%;
     animation: gradient-animation 24s ease infinite;
     --foreground: #ededed;
+	  font-family: "Prompt", sans-serif;
   }
 }
 
@@ -39,15 +41,17 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  
+  font-family: "Prompt", sans-serif;
 }
 
 h1 {
   text-align: center;
+  font-family: "Prompt", sans-serif;
 }
 
 p {
   text-align: center;
+  font-family: "Prompt", sans-serif;
 }
 
 .thumbs .swiper-slide {
