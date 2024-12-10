@@ -1,17 +1,11 @@
-
 import React from "react";
 import Image from "next/image";
-import { Prompt } from "next/font/google";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { images } from "@/lib/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-const kanit = Prompt({
-  subsets: ["latin"],
-  weight: "400",
-});
 import { Card, CardBody } from "@nextui-org/react";
 
 export default function Home() {
