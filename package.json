@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/prompt": "^5.1.0",
     "@next/font": "^14.2.15",
     "@nextui-org/card": "^2.0.34",
     "@nextui-org/divider": "^2.0.32",
