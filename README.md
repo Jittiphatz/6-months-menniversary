@@ -1,3 +1,23 @@
+## 6 Months Menniversary Website project for my girlfriend!
+
+# Local Developement
+- Install dependencies
+```bash
+bun install
+```
+- Build Project
+```bash
+bun run build
+```
+- start project
+```bash
+bun run start
+# or
+bun run dev (for run dev)
+```
+# Next.JS v15 + Tailwind CSS + Swiper
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
