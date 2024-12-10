@@ -1,5 +1,5 @@
 ## 6 Months Menniversary Website project for my girlfriend!💖
-# This project use bun.js😊
+# This project use <a href="https://bun.sh/">Bun.js</a>😊
 
 # 🌐 Local Developement
 - Install dependencies
