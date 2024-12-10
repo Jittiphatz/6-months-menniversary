@@ -1,6 +1,7 @@
-## 6 Months Menniversary Website project for my girlfriend!
+## 6 Months Menniversary Website project for my girlfriend!💖
+# This project use bun.js😊
 
-# Local Developement
+# 🌐 Local Developement
 - Install dependencies
 ```bash
 bun install
@@ -9,11 +10,11 @@ bun install
 ```bash
 bun run build
 ```
-- start project
+- Start project
 ```bash
 bun run start
 # or
-bun run dev (for run dev)
+bun run dev # (for run dev)
 ```
 # Next.JS v15 + Tailwind CSS + Swiper
 
